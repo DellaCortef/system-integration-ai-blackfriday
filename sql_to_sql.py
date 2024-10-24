@@ -10,8 +10,9 @@ from sqlalchemy import create_engine
 load_dotenv()
 
 # Get the database URL and table name from environment variables
-database_url = os.getenv("DATABASE_URL")
-table        = os.getenv("TABLE_NAME")
+database_url     = os.getenv("DATABASE_URL")
+database_url_aws = os.getenv("DATABASE_URL_AWS")
+table            = os.getenv("TABLE_NAME")
 
 engine = create_engine(database_url)
 
