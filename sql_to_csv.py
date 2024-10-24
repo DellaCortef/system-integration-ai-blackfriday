@@ -14,3 +14,8 @@ database_url = os.getenv("DATABASE_URL")
 table_name   = os.getenv("TABLE_NAME")
 
 engine = create_engine(database_url)
+
+# Execute an SQL query and load the results into a DataFrame
+query = f"SELECT * FROM {table_name}"
+df = pd.read_sql_query(query, engine)
+
