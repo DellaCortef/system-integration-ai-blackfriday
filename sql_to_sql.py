@@ -20,7 +20,7 @@ engine = create_engine(database_url)
 query = f"SELECT * FROM {table}"
 df = pd.read_sql_query(query, engine)
 
-# Save the DataFrame as a CSV file
-df.to_csv(f"{table}.csv", index=False)
+# Saving DataFrame to a table in my new DataBase
+df.to_sql(table, engine, if_exists='replace', index=False)
 
 print("CSV created successfully!")
