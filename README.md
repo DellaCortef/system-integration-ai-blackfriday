@@ -17,6 +17,10 @@ Part focused on Data Analysis, integrating our bank with AI.
 - perform a statistical analysis of the data;
 
 ### Third step:
-- finally, we will analyze the data using AI Gen;
+- we will analyze the data using AI Gen;
 - to do this, we will build a connection between our DataBase data and the ChatGPT API and perform analysis;
 - with this connection, we will make a request from the OpenAI API with our gold dataset;
+
+### Fourth step:
+- create a PowerPoint with the IA Gen analysis;
+- we will use gamma app (https://gamma.app/create)
