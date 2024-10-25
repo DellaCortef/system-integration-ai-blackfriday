@@ -4,7 +4,7 @@
 import os
 import pandas as pd
 from dotenv import load_dotenv
-from ydata_profilling import ProfileReport
+from ydata_profiling import ProfileReport
 
 # Load environment variables from .env file
 load_dotenv()
