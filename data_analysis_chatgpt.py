@@ -32,3 +32,8 @@ questions = [
     "What is the proportion of new users in relation to total users?",
     "What are the main sources of traffic?"
 ]
+
+# Ask questions and print answers
+for i, question in enumerate(questions, 1):
+    print(f"\nAnalysis {i}:")
+    print(ask_question(question))
