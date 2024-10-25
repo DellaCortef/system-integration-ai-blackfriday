@@ -15,3 +15,7 @@ Part focused on Data Analysis, integrating our bank with AI.
 
 ### Second step:
 - perform a statistical analysis of the data;
+
+### Third step:
+- finally, we will analyze the data using AI Gen;
+- to do this, we will build a connection between our DataBase data and the ChatGPT API and perform analysis;
