@@ -24,3 +24,11 @@ def ask_question(question):
     ])
     return answer.choices[0].message.content
 
+# List of questions for analysis
+questions = [
+    "What is the total number of unique users?",
+    "What are the 5 cities with the most sessions?",
+    "What is the average session duration?",
+    "What is the proportion of new users in relation to total users?",
+    "What are the main sources of traffic?"
+]
