@@ -35,5 +35,7 @@ questions = [
 
 # Ask questions and print answers
 for i, question in enumerate(questions, 1):
-    print(f"\nAnalysis {i}:")
-    print(ask_question(question))
+    with open(f"answer_{i}.txt", "w") as file:
+        file.write(ask_question(question))
+        print(f"\nAnalysis {i}:")
+        print(ask_question(question))
